@@ -24,8 +24,10 @@ body {
 }
 
 #box-area {
-    width: 500px;
-    height: 500px;
+    width: 90vw;
+   
+    display: flex;
+    flex-direction: column;
     background-color: rgb(32, 64, 109);
     position: absolute;
     top: 50%;
@@ -67,9 +69,7 @@ body {
 }
 
 #result-area {
-    position: absolute;
-    top: 20%;
-    left: 55%;
+    
     color: white;
 }
 
@@ -80,5 +80,12 @@ body {
 
 #result-area p {
     font-family: cursive;
-    margin: 15px 0px;
+    margin: 15px 15px;
+}
+
+@media (min-width:500px) {
+    #box-area {
+        flex-direction: row;
+        width: 500px;
+    }
 }
