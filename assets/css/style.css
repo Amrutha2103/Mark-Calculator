@@ -11,24 +11,74 @@ body {
     position: relative;
 }
 
-.heading {
+#heading {
     color: antiquewhite;
     text-align: center;
     font-size: 2.5rem;
     padding-top: 20px;
 }
 
-.logo {
+#logo {
     height: 40px;
     padding-right: 5px;
 }
 
 #box-area {
-    width: 700px;
+    width: 500px;
     height: 500px;
     background-color: rgb(32, 64, 109);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    padding-top: 50px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+
+
+
+#box-area input {
+    display: block; 
+    height: 40px;
+    margin: 20px 0px;
+    color:rgb(15, 13, 13);
+    font-family: cursive;    
+}
+
+#btn {
+    background-color: gray;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 3px 10px;
+    color: antiquewhite;
+    margin: 30px 54px;
+    cursor: pointer;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    background-color: white;
+    color: gray;
+}
+
+#result-area {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    color: white;
+}
+
+#result-area h2 {
+    font-family: cursive;
+    text-align: center;
+}
+
+#result-area p {
+    font-family: cursive;
+    margin: 15px 0px;
 }
